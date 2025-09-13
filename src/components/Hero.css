@@ -1,0 +1,89 @@
+.hero{
+  padding: 10rem 0;
+}
+
+.hero-info{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.hero-title{
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1.4rem;
+    line-height: 1.1;
+}
+.hero-gradient-text{
+   background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-description{
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plans{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.plans:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(37, 3, 207, 0.6);
+}
+
+.hero-visual{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1.7rem;
+}
+
+.hero-card{
+    position: relative;
+
+}
+
+
+.hero-card-inner{
+    background-color: #6b728042;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transform: rotate(-3deg);
+    text-align: center;
+}
+
+.hero-card-outer{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+    border-radius: 1.5rem;
+    transform: rotate(3deg);
+    padding: 2rem;
+    color: white;
+    box-shadow: 0 25px 50px rgb(0, 0, 0, 0.2);
+
+}

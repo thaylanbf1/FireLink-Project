@@ -1,0 +1,97 @@
+.haeader{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100% );
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 10px 25px rgba(0, 0, 0,0.1);
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    padding: 1rem .7rem;
+}
+
+.title{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-header .title{
+    background: linear-gradient(45deg, #405DE6, #9c0b0b, #F77737 , #9c9203);
+    background-size: 150% 150%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: changeColor 3s ease infinite;
+}
+
+@keyframes changeColor {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 66%; }
+    100% { background-position: 0% 50%; }
+}
+
+.nav-bar{
+    display: flex;
+    gap: 6rem;
+}
+ .nav-link{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease;
+    padding: 7px;
+ }
+
+ .nav-link:hover{
+    transform: rotateY(-5px);
+    color: #bfdbfe;
+    border: .5px solid #bfdbfe;
+    box-shadow: 0 4px 15px rgba(198, 218, 255, 0.589);
+    background-color: #2563eb;
+    border-radius: 20px;
+    padding: 0 15px;
+ }
+
+ .nav-link.active{
+    transform: rotateY(-5px);
+    color: #bfdbfe;
+    border: .5px solid #bfdbfe;
+    box-shadow: 0 4px 15px rgba(198, 218, 255, 0.589);
+    background-color: #2563eb;
+    border-radius: 20px;
+    padding: 0 15px;
+ }
+
+  .nav-link.active:hover{
+    transform: rotateY(-8px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(198, 218, 255, 0.7);
+
+ }
+
+ .client-area{
+    background-color: white;
+    color: #2563eb;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+ }
+
+ .client-area:hover{
+    color: #eff6ff;
+    background-color: #2563eb;
+    transform: translateY(-1px);
+
+ }

@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,sans-serif;
+  background: linear-gradient(135deg, #eff6ff 0%, #faf5ff 100%);
+  min-height: 100vh;
+  line-height: 1.6;
+}

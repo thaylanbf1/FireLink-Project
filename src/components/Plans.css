@@ -1,0 +1,155 @@
+.plans-container{
+    padding: 5rem 0;
+}
+
+.plans-section{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.color-card{
+    background-color: #6b72801f;
+    padding: 1.7rem;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform .3s ease;
+    border: .5px solid #2563eb;
+}
+
+.color-card:hover{
+    transform: translateY(-5px);
+    transform: scale(1.07);
+}
+
+.plans-title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title-gradient-plans{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.title-plans{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.subtitle-plans{
+    font-size: 1.2rem;
+    color: #6b7280;
+}
+
+.plan-card{
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.plans-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3.5rem;
+}
+
+.plan-card-popular{
+   box-shadow: 0 4px 15px rgba(37, 99, 235, 0.7);
+    transform: scale(1.1) translateY(-5px);;
+}
+
+.plan-pop-badge {
+  background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+
+.plan-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    margin-top: .6rem;
+}
+
+.plans-description{
+    margin-bottom: 1.5rem;
+}
+.speed{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.mega{
+    color: #6b7280;
+    margin-left: 0.4rem;
+}
+
+.plans-price{
+    margin-bottom: 1.5rem;
+}
+
+.price{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #2563eb;
+}
+.mes{
+    color: #6b7280;
+    margin-left: .4rem;
+}
+
+.plan-space{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.li-itens{
+    display: flex;
+    align-items: center;
+    margin-bottom: .7rem;
+    color: #374151;
+}
+
+.icon{
+    color: #10b981;
+    margin-right: .3rem;
+    flex-shrink: 0;
+}
+
+.plan-button{
+    width: 100%;
+    padding: .7rem;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: none;
+}
+
+.plan-button-popular{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+    color: white;
+}
+
+.plan-button-regular{
+    border: 2px solid #2563eb;
+  color: #2563eb;
+  background-color: transparent;
+}

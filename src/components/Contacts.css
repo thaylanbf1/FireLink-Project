@@ -1,0 +1,59 @@
+.contacts{
+    padding: 5rem 0;
+}
+
+.contacts-container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-contacts{
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.contacts-title{
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #1f2937;
+   margin-bottom: 1rem;
+}
+
+.title-gradient-contacts{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contacts-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 3.5rem;
+    gap: 4rem;
+}
+
+.contact-card{
+    background-color: #6b72801f;
+    padding: 1.7rem;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform .3s ease;
+}
+
+.contact-card:hover{
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+
+.midle-card{
+    background: linear-gradient(135deg, #2563eb 0%, #9333ea 100%);
+    border-radius: 30px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.7);
+}
