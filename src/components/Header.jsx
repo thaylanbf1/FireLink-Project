@@ -19,37 +19,35 @@ const Header = () => {
     };
 
     useEffect(() => {
-        const sections = ['inicio', 'sobre', 'planos', 'depoimentos', 'contato']
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting){
-                        setActiveSection(entry.target.id)
-                    }
-                })
-            },
-            {
-                threshold: 0.3,
-                rootMargin: '-80px 0px -50% 0px'
-            }
-        )
+        const handleScroll = () => {
+            const sections = ['inicio', 'sobre', 'planos', 'contato'];
+            const scrollPosition = window.scrollY + 150; // Offset para o header fixo
 
-        sections.forEach((sectionId) => {
-            const element = document.getElementById(sectionId)
-            if(element){
-                observer.observe(element)
-            }
-        })
+            let currentSection = 'inicio';
 
-        return () => {
             sections.forEach((sectionId) => {
-                const element = document.getElementById(sectionId)
-                if(element){
-                    observer.unobserve(element)
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    const rect = element.getBoundingClientRect();
+                    const elementTop = rect.top + window.scrollY;
+                    
+                    if (scrollPosition >= elementTop) {
+                        currentSection = sectionId;
+                    }
                 }
-            })
-        }
-    }, [])
+            });
+
+            setActiveSection(currentSection);
+        };
+
+        
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+      return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
   return (
         <header>
