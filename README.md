@@ -5,7 +5,7 @@
 
 ## 📝 Descrição
 
-**FireLink** é uma landing page para um provedor de internet fibra óptica. O projeto foi desenvolvido para apresentar os serviços, planos e benefícios da empresa de forma clara e atrativa. A página é totalmente responsiva e construída com tecnologias modernas.
+**FireLink** é uma landing page para um provedor de internet fibra óptica. O projeto foi desenvolvido para apresentar os serviços, planos e benefícios da empresa de forma clara e atrativa. A página é totalmente construída com tecnologias modernas.
 
 ## ✨ Funcionalidades
 
@@ -13,6 +13,9 @@
 - **Recursos e Benefícios:** Apresenta os principais diferenciais da empresa, como alta velocidade, conexão segura e suporte 24h.
 - **Depoimentos de Clientes:** Exibe avaliações de clientes para gerar confiança e credibilidade.
 - **Seções Navegáveis:** A página possui um cabeçalho com links que permitem a rolagem suave para as seções correspondentes.
+
+## ✨ Proxímos Passos
+- **Aplicar responsividade a página para melhor aplicação mobile** 
 
 ## 💻 Tecnologias Utilizadas
 
