@@ -1,20 +1,20 @@
-# FireLink 🚀  
+# FireLink  
 Landing Page para Provedor de Internet Fibra Óptica
 
 FireLink é uma landing page institucional desenvolvida para apresentar os serviços, planos e benefícios de um provedor de internet fibra óptica de forma clara, moderna e atrativa. O projeto foi pensado para oferecer uma experiência visual agradável e navegação intuitiva.
 
-**🔗 Acesse o projeto:**https://thaylanbf1.github.io/FireLink-Project/
+**Acesse o projeto:** https://thaylanbf1.github.io/FireLink-Project/
 
 ---
 
-## 📝 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto foi desenvolvido com foco em **componentização**, **organização de layout** e **experiência do usuário**, simulando um site real de empresa.  
 A interface destaca planos, diferenciais e depoimentos de clientes, buscando transmitir confiança e credibilidade.
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - Seção de planos com detalhes de velocidade e preço  
 - Apresentação de recursos e benefícios (alta velocidade, conexão segura, suporte 24h)  
@@ -24,7 +24,7 @@ A interface destaca planos, diferenciais e depoimentos de clientes, buscando tra
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - React  
 - Vite  
@@ -33,14 +33,13 @@ A interface destaca planos, diferenciais e depoimentos de clientes, buscando tra
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
-![Preview](./images/image.png)
-
+![Preview do FireLink](./images/image.png)
 
 ---
 
-## 🚀 Como executar o projeto localmente
+##  Como executar o projeto localmente
 
 ```bash
 # Clone o repositório
